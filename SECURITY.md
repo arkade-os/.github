@@ -16,7 +16,7 @@ This default policy applies to public repositories under Arkade OS and Ark Labs 
 
 In scope are source, release artifacts, published packages, and services operated by Ark Labs or Arkade OS from an unmodified release. We welcome reports involving key safety, funds, VTXOs, settlement, payment state, contract compilation, signing, authentication, tenant isolation, release integrity, and infrastructure trust boundaries.
 
-A custom fork or modified deployment that is not operated by Ark Labs or Arkade OS is out of scope. A third-party dependency should also be reported upstream, but it is in scope here when the issue creates an exploitable path through our code or a supported deployment. Feature requests, non-security bugs, social engineering, physical attacks, spam, and public disclosure before coordination are not vulnerability reports.
+A custom fork or modified deployment that is not operated by Ark Labs or Arkade OS is out of scope. A third-party dependency should also be reported upstream, but it is in scope here when the issue creates an exploitable path through our code or a supported deployment. Feature requests, non-security bugs, social engineering, physical attacks, spam, and disclosure of new technical details before coordination are not vulnerability reports. An already public vulnerability is still reportable when it affects supported code, releases, or deployments.
 
 Documented alpha, testnet, or unaudited status is severity context, not a blanket exclusion when the issue can reach a supported mainnet or published release path.
 
